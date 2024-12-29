@@ -1,0 +1,438 @@
+@font-face {
+    font-family: 'Baymax';
+    src: url('fonts/Baymax-Regular.eot');
+    src: url('fonts/Baymax-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Baymax-Regular.woff2') format('woff2'),
+        url('fonts/Baymax-Regular.woff') format('woff'),
+        url('fonts/Baymax-Regular.ttf') format('truetype'),
+        url('fonts/Baymax-Regular.svg#Baymax-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    font-family: "Nunito", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #C7C2B4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #113F00;
+}
+
+.logo {
+    font-family: 'Baymax';
+    font-size: 48px;
+}
+
+.header-container { 
+    display: flex;
+    color: #C7C2B4;
+    padding: 37px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 81px;
+}
+
+.menu a {
+    color: #C7C2B4;
+    text-decoration: none;
+}
+
+.contacts {
+    text-align: right;
+}
+
+.lines {
+    display: flex;
+}
+
+.line {
+    display: block;
+    width: 138px;
+    height: 138px;
+    border-radius: 37px;
+    margin: 22px;
+    flex: 0 0 auto;
+}
+
+.line-red {
+    background-color: #961d13;
+}
+
+.line-green {
+    background-color: #113f00;
+}
+
+.line-yellow {
+    background-color: #c98b2a;
+}
+
+.line-gray {
+    background-color: #58595b;
+}
+
+.line-text {
+    font-size: 50px;
+    color: #000;
+    text-align: center;
+}
+
+.description {
+    background-color: #C7C2B4;
+    color: #C7C2B4;
+    padding: 37px 0;
+}
+.logo2 {
+    font-size: 96px;
+    color: #C98B2A;
+    font-family:'Baymax';
+}
+
+.description-container {
+    color: #C7C2B4;
+    padding: 37px 0;
+}
+
+.text {
+    font-size: 25px;
+    color: black;
+    padding-left: 300px;
+    padding-top: 53px;
+}
+
+.advantages {
+    background-color: #C7C2B4;
+    padding: 37px 0;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block-picture {
+    width: 33%;
+}
+.advantages-naming {
+    color: #113F00;
+    font-family: 'Baymax';
+    font-size: 64px;
+    text-align: center;
+}
+
+.name-picture {
+    color: black;
+    font-size: 36px;
+    text-align: center;
+}
+
+.picture{
+    text-align: center;
+}
+
+.booking {
+    background-color: #C98B2A;
+    padding: 37px 0;
+    box-shadow: 0 0 30px #0000002a;
+    padding: 10px ;
+}
+
+.text-booking {
+    color: white;
+    font-size: 64px;
+    font-family: 'Baymax';
+    padding-bottom: 47px;
+}
+
+.w-b {
+    color: #961D13;
+    font-size: 40px;
+    display: block;
+    border: 0;
+    border-radius: 40px;
+    margin-bottom: 37px;
+    padding: 10px 40px;
+    background-color: #C7C2B4;
+}
+
+.w-b::placeholder {
+    color: white;
+}
+.w-b::-webkit-input-placeholder {
+    color:white;
+}
+.w-b::-moz-placeholder {
+    color:#ffffff;
+}
+.w-b::-moz-placeholder {
+    color:white;
+}
+.w-b::-ms-input-placeholder {
+    color: white;
+}
+
+.text-b a {
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.text-b {
+    background-color: #113F00;
+    border-radius: 40px 40px;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.picture-dusty {
+    margin: 100px;
+}
+
+.booking-container {
+    display: flex;
+}
+
+.merch {
+    background-color: #C98B2A;
+    padding: 37px 0;
+    box-shadow: 0 4px 2px -2px rgb(0, 0, 0);;
+    padding: 10px ;
+}
+
+.merch-naming {
+    color: white;
+    font-size: 64px;
+    font-family: 'Baymax';
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.clothes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block-merch {
+    width: 33%;
+}
+
+.clothes-picture {
+    text-align: center;
+}
+
+.text-merch {
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.dusty {
+    background-color: #C7C2B4;
+    padding: 37px 0;
+}
+
+.dusty-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.text-q {
+    color: white;
+    font-size: 64px;
+    font-family: 'Baymax';
+    margin-top: 300px;
+}
+
+.dusty-picture {
+    margin-top: -50px;
+}
+
+.questions {
+    background-color: #C7C2B4;
+    padding: 37px 0;
+}
+
+.questions-container{
+padding-left: 166px;
+padding-right: 166px;
+padding-bottom: 87px;
+padding-top: 87px;
+}
+
+.text-block {
+    text-align: center;
+}
+
+.t-block {
+    color: #ffffff;
+    font-size: 40px;
+    border: 0;
+    border-radius: 20px;
+    margin-bottom: 37px;
+    padding: 10px 40px;
+    background-color: #113F00;
+}
+
+.t-block::placeholder {
+    color: white;
+}
+.t-block::-webkit-input-placeholder {
+    color:white;
+}
+.t-block::-moz-placeholder {
+    color:#ffffff;
+}
+.t-block::-moz-placeholder {
+    color:white;
+}
+.t-block::-ms-input-placeholder {
+    color: white;
+}
+
+
+.down {
+    background-color: #C7C2B4;
+    padding: 37px 0;
+    box-shadow: 0 0 30px #0000001a;
+    padding: 10px;
+}
+
+.down-container {
+    color: #000000;
+}
+
+.text-down-about {
+    display: flex;
+    gap: 81px;
+    justify-content: space-between;
+}
+
+.animation {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+}
+
+.lines-right {
+    animation: startLine 15s linear, marquee 15s linear 15s infinite;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.lines-left {
+    animation: startLineleft 15s linear, marqueeleft 15s linear 15s infinite;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@keyframes startLine {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes startLineleft {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes marqueeleft {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.cubes {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cubes-line {
+    display: flex;
+}
+
+.cube {
+    display: block;
+    width: 138px;
+    height: 138px;
+    border-radius: 40px;
+    margin: 40px;
+    flex: 0 0 auto;
+}
+
+.cube-red {
+    background-color: #961d13;
+}
+
+.cube-green {
+    background-color: #113f00;
+}
+
+.cube-yellow {
+    background-color: #c98b2a;
+}
+
+.cube-gray {
+    background-color: #58595b;
+}
+
+.cube-45 {
+    transform: rotate(45deg);
+    
+}
+
+.cube-15 {
+    transform: rotate(15deg);
+}
+
+.cube-30 {
+    transform: rotate(30deg);
+}
+
+.cube-65 {
+    transform: rotate(65deg);
+}
